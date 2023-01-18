@@ -1,0 +1,76 @@
+.banner {
+    color: whitesmoke;
+    font-size: 85px;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 300px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 2px black;
+    animation: fadeIn 3s;
+}
+
+.banner h3 {
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.banner hr {
+    border-color: white;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 75%;
+    animation: expand 3s;
+}
+
+body {
+    color: black;
+    font-family: 'Roboto', sans-serif!important;
+    overflow-x: hidden;
+    background: darkslategray;
+}
+
+.landing {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container {
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.navbar {
+    padding: 20px 35px!important;
+}
+
+.navbar-brand {
+    font-size: 20px!important;
+}
+
+.test {
+    border: 1px dashed red;
+}
+
+#video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    z-index: 0;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes expand {
+    0% { width: 0%; }
+    75% { width: 75%; }
+}
