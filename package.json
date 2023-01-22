@@ -1,0 +1,27 @@
+{
+  "name": "absideoninteractive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanhart23/absideoninteractive.git"
+  },
+  "author": "Sean Hart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanhart23/absideoninteractive/issues"
+  },
+  "homepage": "https://github.com/seanhart23/absideoninteractive#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "nodemailer": "^6.9.0",
+    "request": "^2.88.2"
+  }
+}
