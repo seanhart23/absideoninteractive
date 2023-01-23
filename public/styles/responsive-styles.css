@@ -1,0 +1,94 @@
+@media screen and (max-width: 980px) {
+
+    .banner {
+        padding-top: 200px;
+        font-size: 45px;
+    }
+
+    .banner h3 {
+        font-size: 20px;
+    }
+
+    .bannerBox {
+        width: 80%;
+    }
+
+    body {
+        font-weight: 300;
+        color: black;
+    }
+    .box {
+        margin-bottom: 25px;
+        height: auto;
+    }
+
+    .boxTitle {
+        font-size: 26px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footerLogo {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .footerNav {
+        position: relative;
+    }
+
+    .footerNavLink, .footerNavLink a {
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .footerNavLinks {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .mainContainer {
+        max-height: 150vh;
+        height: 135vh;
+    }
+
+    .section p {
+        font-size: 18px;
+        font-weight: 300;
+        color: black;
+    }
+    .quote {
+        font-size: 18px;
+        width: 85%;
+    }
+
+    .section {
+        padding: 75px 30px;
+    }
+
+    .sectionTitle h2 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .sectionTwo img {
+        margin-bottom: 75px;
+    }
+
+    .sectionTwo .sectionText {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .stepBox {
+        width: 100%;
+    }
+
+    #video {
+        height: 100vh;
+        width: auto;
+    }
+}
