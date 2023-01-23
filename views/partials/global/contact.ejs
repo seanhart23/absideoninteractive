@@ -2,30 +2,43 @@
     <div class="modal-dialog" role="document">
     <div class="modal-content">
         <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">We'd Love to Hear From You!</h5>
-        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button> -->
+        <h5 class="modal-title" id="contactModalLabel">We'd Love to Hear From You!</h5>
         </div>
         <div class="modal-body">
             <div class="contactForm">
                 <form method="post">
-                    <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="fname" required><br>
-                    <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lname" required><br>
-                    <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required><br>
-                    <label for="phone">Phone</label>
-                        <input type="phone" id="phone" name="phone" required><br>
-                    <label for="company">Company Name</label>
-                        <input type="text" id="company" name="company"><br>
-                    <label for="type">Project Type</label>
-                        <input type="text" id="type" name="type" required><br>
-                    <label for="description">Project Description</label>
-                        <textarea type="text" id="description" rows="4" name="description" required></textarea><br>
-                    <label for="budget">Estimated Budget</label>
-                        <input type="currency" id="budget" name="budget" required><br>
+                <div class="row">
+                    <div class="col-lg-4"><label for="fname">First Name</label></div>
+                    <div class="col-lg-8"><input type="text" id="fname" name="fname" placeholder="" required></div>
+                </div><br>
+                <div class="row">
+                    <div class="col-lg-4"><label for="lname">Last Name</label></div>
+                    <div class="col-lg-8"><input type="text" id="lname" name="lname" placeholder="" required></div>
+                </div><br>
+                <div class="row">
+                    <div class="col-lg-4"><label for="email">Email</label></div>
+                    <div class="col-lg-8"><input type="email" id="email" name="email" placeholder="" required></div>
+                </div><br>
+                <div class="row">
+                    <div class="col-lg-4"><label for="phone">Phone</label></div>
+                    <div class="col-lg-8"><input type="phone" id="phone" name="phone" placeholder="" required></div>
+                </div><br>
+                <div class="row">
+                    <div class="col-lg-4"><label for="company">Company Name</label></div>
+                    <div class="col-lg-8"><input type="text" id="company" name="company" placeholder=""></div>
+                </div><br>
+                <div class="row">
+                    <div class="col-lg-4"><label for="type">Project Type</label></div>
+                    <div class="col-lg-8"><input type="text" id="type" name="type" placeholder="" required></div>
+                </div><br>
+                <div class="row">
+                    <div class="col-lg-4"><label for="description">Project Description</label></div>
+                    <div class="col-lg-8"><textarea type="text" id="description" rows="4" name="description" placeholder="" required></textarea></div>
+                </div><br>
+                <div class="row">
+                    <div class="col-lg-4"><label for="budget">Estimated Budget</label></div>
+                    <div class="col-lg-8"><input type="currency" id="budget" name="budget" placeholder="$" required></div>
+                </div>
             </div>
         </div>
         <div class="modal-footer">
