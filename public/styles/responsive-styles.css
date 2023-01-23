@@ -52,8 +52,7 @@
     }
 
     .mainContainer {
-        max-height: 150vh;
-        height: 135vh;
+        height: 200vh;
     }
 
     .section p {
