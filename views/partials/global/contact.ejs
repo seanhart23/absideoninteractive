@@ -1,52 +1,51 @@
 <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-        <div class="modal-header">
+        <!-- <div class="modal-header">
         <h5 class="modal-title" id="contactModalLabel">We'd Love to Hear From You!</h5>
-        </div>
+        </div> -->
         <div class="modal-body">
             <div class="contactForm">
-                <form method="post">
-                <div class="row">
-                    <div class="col-lg-4"><label for="fname">First Name</label></div>
-                    <div class="col-lg-8"><input type="text" id="fname" name="fname" placeholder="" required></div>
-                </div><br>
-                <div class="row">
-                    <div class="col-lg-4"><label for="lname">Last Name</label></div>
-                    <div class="col-lg-8"><input type="text" id="lname" name="lname" placeholder="" required></div>
-                </div><br>
-                <div class="row">
-                    <div class="col-lg-4"><label for="email">Email</label></div>
-                    <div class="col-lg-8"><input type="email" id="email" name="email" placeholder="" required></div>
-                </div><br>
-                <div class="row">
-                    <div class="col-lg-4"><label for="phone">Phone</label></div>
-                    <div class="col-lg-8"><input type="phone" id="phone" name="phone" placeholder="" required></div>
-                </div><br>
-                <div class="row">
-                    <div class="col-lg-4"><label for="company">Company Name</label></div>
-                    <div class="col-lg-8"><input type="text" id="company" name="company" placeholder=""></div>
-                </div><br>
-                <div class="row">
-                    <div class="col-lg-4"><label for="type">Project Type</label></div>
-                    <div class="col-lg-8"><input type="text" id="type" name="type" placeholder="" required></div>
-                </div><br>
-                <div class="row">
-                    <div class="col-lg-4"><label for="description">Project Description</label></div>
-                    <div class="col-lg-8"><textarea type="text" id="description" rows="4" name="description" placeholder="" required></textarea></div>
-                </div><br>
-                <div class="row">
-                    <div class="col-lg-4"><label for="budget">Estimated Budget</label></div>
-                    <div class="col-lg-8"><input type="currency" id="budget" name="budget" placeholder="$" required></div>
+                <form method="post" id="contact">
+                    <div class="row">
+                        <div class="col-lg-4"><label for="fname">First Name</label></div>
+                        <div class="col-lg-8"><input type="text" id="fname" name="fname" placeholder="" required></div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-lg-4"><label for="lname">Last Name</label></div>
+                        <div class="col-lg-8"><input type="text" id="lname" name="lname" placeholder="" required></div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-lg-4"><label for="email">Email</label></div>
+                        <div class="col-lg-8"><input type="email" id="email" name="email" placeholder="" required></div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-lg-4"><label for="phone">Phone</label></div>
+                        <div class="col-lg-8"><input type="phone" id="phone" name="phone" placeholder="" required></div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-lg-4"><label for="company">Company Name</label></div>
+                        <div class="col-lg-8"><input type="text" id="company" name="company" placeholder=""></div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-lg-4"><label for="type">Project Type</label></div>
+                        <div class="col-lg-8"><input type="text" id="type" name="type" placeholder="" required></div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-lg-4"><label for="description">Project Description</label></div>
+                        <div class="col-lg-8"><textarea type="text" id="description" rows="4" name="description" placeholder="" required></textarea></div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-lg-4"><label for="budget">Estimated Budget</label></div>
+                        <div class="col-lg-8"><input type="currency" id="budget" name="budget" placeholder="$" required></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="modal-footer">
-            <button type="submit" class="btn btn-primary">Send</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-    </form>
-        
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="send">Send</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </form>
         </div>
     </div>
     </div>
