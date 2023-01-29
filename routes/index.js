@@ -9,6 +9,10 @@ router.get('/', function(req, res){
     res.render('index');
 });
 
+router.get('/components', function(req, res){
+    res.render('components');
+});
+
 router.post('/', function(req, res){
     var newQuoteRequest = {
         fname: req.body.fname,

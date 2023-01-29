@@ -231,17 +231,22 @@ a { text-decoration: none!important; }
 
 /****************** SIZE, SHAPE & POSITION *****************/
 
+.w50 { width: 50px; }
+.w100 { width: 100px; }
 .w25p { width: 25%; }
 .w50p { width: 50%; }
 .w75p { width: 75%; }
 .w100p { width: 100%; }
 .w100vw { width: 100vw; }
 
+.h50 { height: 50px; }
+.h100 { height: 100px; }
 .h25p { height: 25%; }
 .h50p { height: 50%; }
 .h75p { height: 75%; }
 .h100p { height: 100%; }
 .h100vh { height: 100vh; }
+
 
 .posr { position: relative; }
 .posa { position: absolute; }
@@ -254,24 +259,33 @@ a { text-decoration: none!important; }
 .z1 { z-index: 1;}
 .z2 { z-index: 2;}
 
+.b0 { bottom: 0; }
+.t0 { top: 0; }
+
 .br2 { border-radius: 2px; }
 .br5 { border-radius: 5px; }
 
+.zoom-out { zoom: 75% }
+
 /********************* COLORS & SHADOWS ********************/
 
-.bgwhite { background-color: white; }
-.bgblack { background-color: black; }
-.bgwhitesmoke { background-color: whitesmoke; }
+.bg-white { background-color: white; }
+.bg-black { background-color: black; }
+.bg-whitesmoke { background-color: whitesmoke; }
+.bg-lightgray { background-color: lightgray; }
+.bg-black-o { background-color: rgba(0, 0, 0, .7); }
 
-.fcblack { color: black; }
-.fclightgray { color: lightgray; }
-.fcwhite { color: white; }
-.fcwhitesmoke { color: whitesmoke; }
+.fc-black { color: black; }
+.fc-lightgray { color: lightgray; }
+.fc-white { color: white; }
+.fc-whitesmoke { color: whitesmoke; }
 
-.bssmdark { box-shadow: 5px 5px 10px 1px black; }
-.bslglight { box-shadow: 10px 10px 20px 5px gray; }
+.bs-sm-dark { box-shadow: 5px 5px 10px 1px black; }
+.bs-lg-light { box-shadow: 10px 10px 20px 5px gray; }
 
-.ts2b { text-shadow: 2px 2px 2px black; }
+.ts-2-b { text-shadow: 2px 2px 2px black; }
+
+.light-border { border: 1px solid lightgray; }
 
 /************************ ANIMATIONS ***********************/
 
@@ -294,14 +308,6 @@ a { text-decoration: none!important; }
 @keyframes slideUp {
     0% { margin-top: 300px; }
     100% { margin-top: 100px;}
-}
-
-/************************ COMPONENTS ***********************/
-
-.section {
-    position: relative;
-    height: auto;
-    width: 100%;
 }
 
 /*---------------------------------------------------------*/
