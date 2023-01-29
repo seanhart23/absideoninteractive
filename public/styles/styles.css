@@ -1,29 +1,9 @@
 .banner {
-    color: whitesmoke;
-    font-size: 85px;
-    margin: auto;
-    text-align: center;
-    z-index: 1;
-    position: relative;
-    text-transform: uppercase;
     padding-top: 250px;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: 2px 2px 2px black;
-    font-weight: 300;
-    animation: fadeIn 3s;
-}
-
-.banner h3 {
-    letter-spacing: 2px;
-    font-weight: 200;
 }
 
 .banner hr {
     border-color: white;
-    margin-bottom: 20px;
-    margin-top: 0px;
-    width: 75%;
-    animation: expand 3s;
 }
 
 .bannerBox {
@@ -43,7 +23,6 @@ body {
     font-family: 'Roboto', sans-serif!important;
     overflow-x: hidden;
     background: darkslategray;
-    scroll-behavior: smooth;
     font-weight: 300;
 }
 
@@ -206,22 +185,6 @@ body {
 
 #process h2 {
     text-shadow: 2px 2px 2px black;
-}
-
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1s all ease;
-}
-
-.reveal.active{
-    transform: translateY(0);
-    opacity: 1;
-}
-
-.test {
-    border: 1px dashed red;
 }
 
 .section {
