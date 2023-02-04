@@ -357,7 +357,7 @@ a { text-decoration: none!important; }
 /************************* GENERAL *************************/
 
 .webonly { display: none!important; }
-.mobileonly { display: inline!important; }
+.mobileonly { display: inline-block!important; }
 
 /************************** MARGIN *************************/
 
