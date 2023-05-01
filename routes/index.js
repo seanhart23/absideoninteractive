@@ -13,6 +13,10 @@ router.get('/components', function(req, res){
     res.render('components');
 });
 
+router.get('/theresa', function(req, res){
+    res.render('theresa');
+});
+
 router.post('/', function(req, res){
     var newQuoteRequest = {
         fname: req.body.fname,
